@@ -51,10 +51,12 @@ class CheckoutController extends AbstractController
 		$client->process();
 
 		$this->response->addAdditionalHeaderData( (string) $client->getHeader() );
-
+	
 		$aimeos = \Aimeos\Aimeos\Base::getAimeos();
 		\Aimeos\Controller\Jobs\Order\Email\Payment\Factory::createController($context, $aimeos )->run();
-		
+        	$context = \Aimeos\Aimeos\Scheduler\Base::getContext();
+	        \Aimeos\Controller\Jobs\Order\Service\Delivery\Factory::createController($context, $aimeos)->run();
+
 		return $client->getBody();
 	}
 
