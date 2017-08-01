@@ -1,97 +1,97 @@
 <?xml version="1.0" ?><xliff version="1.0">
-	<file datatype="plaintext" date="2015-04-04T14:20:05Z" original="messages" product-name="aimeos" source-language="en" target-language="pt">
+	<file datatype="plaintext" date="2015-04-04T14:20:05Z" original="messages" product-name="aimeos" source-language="en" target-language="cs">
 		<header/>
 		<body>
 			<trans-unit id="default.description" xml:space="preserve">
 				<source>Executes the selected Aimeos Shop jobs</source>
-				<target>Executa as tarefas selecionadas</target>
+				<target>Spustí vybrané úlohy</target>
 			</trans-unit>
 			<trans-unit id="default.error.sitecode" xml:space="preserve">
 				<source>One or more sites is invalid or already disabled</source>
-				<target>Um ou mais sites é inválido ou já foi desativado</target>
+				<target>Jeden nebo více obchodů obsahuje chyby nebo je již zakázán</target>
 			</trans-unit>
 			<trans-unit id="default.error.sitecode.missing" xml:space="preserve">
 				<source>Please choose at least one site</source>
-				<target>Por favor, escolha pelo menos um local</target>
+				<target>Vyberte prosím alespoň jeden obchod</target>
 			</trans-unit>
 			<trans-unit id="default.error.controller.missing" xml:space="preserve">
 				<source>Please choose at least one job</source>
-				<target>Ppor favor, escolha pelo menos uma tarefa</target>
+				<target>Vyberte prosím alespoň jednu úlohu</target>
 			</trans-unit>
 			<trans-unit id="default.error.tsconfig.invalid" xml:space="preserve">
 				<source>The TypoScript configuration is invalid</source>
-				<target>A configuração TypoScript é inválida</target>
+				<target>Konfigurace TypoScriptu obsahuje formální chyby</target>
 			</trans-unit>
 			<trans-unit id="default.label.controller" xml:space="preserve">
 				<source>Jobs</source>
-				<target>Tarefas</target>
+				<target>Úlohy</target>
 			</trans-unit>
 			<trans-unit id="default.label.sitecode" xml:space="preserve">
 				<source>Sites</source>
-				<target>Locais</target>
+				<target>Obchody</target>
 			</trans-unit>
 			<trans-unit id="default.label.tsconfig" xml:space="preserve">
 				<source>TypoScript configuration</source>
-				<target>Configuração TypoScript</target>
+				<target>Konfigurace TypoScritpu</target>
 			</trans-unit>
 			<trans-unit id="default.name" xml:space="preserve">
 				<source>Aimeos Shop scheduler</source>
-				<target>Agendador Aimeos Shop</target>
+				<target>Plánovač úloh pro Aimeos obchod</target>
 			</trans-unit>
 			<trans-unit id="email.description" xml:space="preserve">
 				<source>Specialized task for sending the e-mails</source>
-				<target>Serviço especializado para envido de e-mails</target>
+				<target>Úloha vyhrazená pro odesílání e-mailů</target>
 			</trans-unit>
 			<trans-unit id="email.error.from-email.invalid" xml:space="preserve">
 				<source>The sender e-mail address is invalid or none was entered</source>
-				<target>O endereçõ de e-mail do remetente é inválido ou não foi inserido</target>
+				<target>Chybná e-mailová adresa odesílatele</target>
 			</trans-unit>
 			<trans-unit id="email.error.reply-email.invalid" xml:space="preserve">
 				<source>The reply e-mail address is invalid</source>
-				<target>O endereçõ de e-mail de resposta é inválido</target>
+				<target>Chybná e-mailová adresa pro odpovědi</target>
 			</trans-unit>
 			<trans-unit id="email.error.page-detail.invalid" xml:space="preserve">
 				<source>The page ID of the product detail page is invalid</source>
-				<target>O ID da página de detalhe do produto é inválido</target>
+				<target>Chybné ID stránky pro detail produktu</target>
 			</trans-unit>
 			<trans-unit id="email.error.page-download.invalid" xml:space="preserve">
 				<source>The page ID of the account download page is invalid</source>
-				<target>O ID da página de download da conta é inválido</target>
+				<target>Chybné ID stránky pro dokumenty ke stažení pro zákazníka</target>
 			</trans-unit>
 			<trans-unit id="email.error.site-baseurl.invalid" xml:space="preserve">
 				<source>The web site URL is invalid. Use a URL including the protocol and the domain like &quot;https://aimeos.org/&quot;</source>
-				<target>A URL do site é inválida. Use uma URL incluindo o protocolo e o domínio, desta forma &quot;https://aimeos.org/&quot;</target>
+				<target>Chybná URL webové stránky. Použijte URL včetně protokolu např. &quot;https://aimeos.org/&quot;</target>
 			</trans-unit>
 			<trans-unit id="email.error.content-baseurl.invalid" xml:space="preserve">
 				<source>The base URL to the product images is invalid. Use a base URL including the protocol and the domain like &quot;https://aimeos.org/uploads/tx_aimeos&quot;</source>
-				<target>A URL base para as imagens dos produtos é inválida. Use uma URL incluindo o protocolo e o domínio, desta forma &quot;https://aimeos.org/uploads/tx_aimeos&quot;</target>
+				<target>Chybný základ URL produktových obrázků. Použijte URL včetně protokolu např. &quot;https://aimeos.org/uploads/tx_aimeos&quot;</target>
 			</trans-unit>
 			<trans-unit id="email.label.from-name" xml:space="preserve">
 				<source>Sender name</source>
-				<target>Nome do remetente</target>
+				<target>Jméno odesílatele</target>
 			</trans-unit>
 			<trans-unit id="email.label.from-email" xml:space="preserve">
 				<source>Sender e-mail</source>
-				<target>E-mail do remetente</target>
+				<target>e-mail odesílatele</target>
 			</trans-unit>
 			<trans-unit id="email.label.reply-email" xml:space="preserve">
 				<source>Reply e-mail</source>
-				<target>Responder e-mail</target>
+				<target>e-mail pro odpovědi</target>
 			</trans-unit>
 			<trans-unit id="email.label.page-detail" xml:space="preserve">
 				<source>Product detail page ID</source>
-				<target>ID da página de detalhe de produto</target>
+				<target>ID stránky s detailem produktu</target>
 			</trans-unit>
 			<trans-unit id="email.label.page-download" xml:space="preserve">
 				<source>Account download page ID</source>
-				<target>ID da página de download da conta</target>
+				<target>ID stránky s dokumenty ke stažení pro zákazníka</target>
 			</trans-unit>
 			<trans-unit id="email.label.content-baseurl" xml:space="preserve">
 				<source>Base URL to the product images (e.g. https://localhost/uploads/tx_aimeos/)</source>
 			</trans-unit>
 			<trans-unit id="email.label.template-baseurl" xml:space="preserve">
 				<source>Absolute path or path relative from TYPO3 root to the CSS files of the theme directory</source>
-				<target>Caminho absoluto ou relativo da raiz TYPO3 para os arquivos CSS da pasta de temas.</target>
+				<target>Absolutní nebo relativní cesta od kořene TYPO3 webu k souborům CSS ve složce s tématem</target>
 			</trans-unit>
 			<trans-unit id="email.name" xml:space="preserve">
 				<source>Aimeos Shop advanced scheduler</source>
